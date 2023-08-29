@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="./../css/style.css" />
+
+    <title>Frontend Mentor | Multi-step form</title>
+  </head>
+  <body>
+    <!-- Step 1 Your info Step 2 Select plan Step 3 Add-ons Step 4 Summary -->
+    <main>
+      <header>
+        <nav></nav>
+      </header>
+
+      <section class="step-1">
+        <header>
+          <h1>Personal info</h1>
+          <p>Please provide your name, email address, and phone number.</p>
+        </header>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="e.g. Stephen King" />
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="e.g. stephenking@lorem.com" />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="e.g. +1 234 567 890" />
+          </div>
+        </form>
+        <footer><button>Next Step</button></footer>
+      </section>
+
+      <section class="step-2">
+        <header>
+          <h1>Select your plan</h1>
+          <p>You have the option of monthly or yearly billing.</p>
+        </header>
+
+        <form>
+          <div>
+            <h3>Arcade</h3>
+            <p>$9/mo</p>
+          </div>
+          <div>
+            <h3>Advanced</h3>
+            <p>$12/mo</p>
+          </div>
+          <div>
+            <h3>Pro</h3>
+            <p>$15/mo</p>
+          </div>
+          <div>
+            <div>
+              <h3>Monthly</h3>
+              <div class="slider">
+                <div class="active-left"></div>
+                <div class="active-right"></div>
+              </div>
+              <h3>Yearly</h3>
+            </div>
+          </div>
+        </form>
+
+        <footer>
+          <div>
+            <button>Go Back
+            </button>
+            <button>Next Step</button>
+          </div>
+        </footer>
+      </section>
+
+      <section class="step-3">
+        <header>
+          <h1>Pick add-ons</h1>
+          <p>Add-ons help enhance your gaming experience.</p>
+        </header>
+
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="e.g. Stephen King" />
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="e.g. stephenking@lorem.com" />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="e.g. +1 234 567 890" />
+          </div>
+        </form>
+        <footer><button>Next Step</button></footer>
+      </section>
+
+      <section class="step-5">
+        <header>
+          <figure>
+            <img src="./../assets/images/icon-thank-you.svg" alt="Thank you icon" />
+          </figure>
+          <h1>Thank you!</h1>
+          <p>
+            Thanks for confirming your subscription! We hope you have fun using our platform. If you ever need support, please feel free to email us at
+            support@loremgaming.com.
+          </p>
+        </header>
+      </section>
+    </main>
+
+    Advanced $12/mo Pro $15/mo Monthly Yearly Go Back Next Step
+
+    <!-- Step 2 end -->
+
+    <!-- Step 3 start -->
+
+    Online service Access to multiplayer games +$1/mo Larger storage Extra 1TB of cloud save +$2/mo Customizable Profile Custom theme on your profile +$2/mo Go
+    Back Next Step
+
+    <!-- Step 3 end -->
+
+    <!-- Step 4 start -->
+
+    Finishing up Double-check everything looks OK before confirming.
+
+    <!-- Dynamically add subscription and add-on selections here -->
+
+    Total (per month/year) Go Back Confirm
+
+    <!-- Step 4 end -->
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
